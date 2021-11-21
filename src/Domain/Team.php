@@ -93,8 +93,14 @@ class Team
     public function sortPlayersByFantasyPoints(): void
     {
         uasort($this->players,
-            function (Player $playerA,Player $playerB) {
-                return $playerB->fantasyPoints() - $playerA->fantasyPoints();
+            function (Player $playerA, Player $playerB) {
+                if ($playerB->fantasyPoints() < $playerA->fantasyPoints()) {
+                    return -1;
+                }
+                if ($playerB->fantasyPoints() > $playerA->fantasyPoints()) {
+                    return 1;
+                }
+                return 0;
             }
         );
     }
