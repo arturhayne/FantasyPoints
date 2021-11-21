@@ -94,7 +94,7 @@ class Team
     {
         uasort($this->players,
             function (Player $playerA,Player $playerB) {
-                return $playerA->fantasyPoints() < $playerB->fantasyPoints();
+                return $playerB->fantasyPoints() - $playerA->fantasyPoints();
             }
         );
     }
