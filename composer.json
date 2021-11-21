@@ -1,0 +1,33 @@
+{
+  "name": "artur/flight-service",
+  "version": "1.0.0",
+  "description": "Fantasy Points",
+  "keywords": [
+    "Fantasy Points"
+  ],
+  "homepage": "https://github.com/arturhayne",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Artur Elias Hayne Oliveira",
+      "homepage": "https://github.com/arturhayne"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "FantasyPoints\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
