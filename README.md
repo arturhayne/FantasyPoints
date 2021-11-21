@@ -1,14 +1,8 @@
 # Fantasy Points
-This is a script to parse an attached projections json file, doing for each event in the file the following:
-
- 1. Organize the data according to the heirarchy diagram below
- 2. Score each player with the given scoring system and assign them a "FantasyPoints" projection with the value. 
- Change the display name for the stats to a formatted version of the represented stat
- 3. Sort the players in each team by FantasyPoints descending
-
-Output should be saved as a JSON file hierarchically organized as follows:
-
-
+ - This is a script Parsing a json file with NFL players projections from an event game. 
+ - This script generates another json file scoring and sorting descending players in his team by his "FantasyPoints" in the match.
+ - The json file generate obey the following structure:
+ ```
 Events
 	<Event Details>
 	Teams:
@@ -31,7 +25,20 @@ Events
 					<Player Projections>
 				...
 	...
-			
+ ```			
+Fantasy pointins is calculating accoring follwoing scoring Guidelines:
+
+ ```
+Scoring Guidelines
+Passing Yards: +0.04
+Passing Touchdowns: +4.00
+Rushing Yards: +0.10
+Rushing Touchdowns: +6.00
+Receptions: +1.00
+Receiving Yards: +0.10
+Receiving Touchdowns: +6.00
+ ```
+Source json file comes with different variable names that is translated in the target file according following dictionary:
  ```		
 Stat Translation Dictionary
 pas_att : PassingAttempts
@@ -45,20 +52,6 @@ rec_rec : Receptions
 rec_tds : ReceivingTouchdowns
 rec_yds : ReceivingYards
 ```
-
- ```
-Scoring Guidelines
-Passing Yards: +0.04
-Passing Touchdowns: +4.00
-Rushing Yards: +0.10
-Rushing Touchdowns: +6.00
-Receptions: +1.00
-Receiving Yards: +0.10
-Receiving Touchdowns: +6.00
- ```
-## Reference
-You can check the fantasy points using [Points Calculator](https://simulatedfootball.com/leagues/points-calculator.html) with "BestBall10s" Scoring System.
-
  
  ## How to Run 
  1. docker-compose up -d
@@ -90,3 +83,6 @@ Time: 00:00.054, Memory: 6.00 MB
 
 OK (3 tests, 6 assertions)
 ```
+
+## Reference
+You can check the fantasy points using [Points Calculator](https://simulatedfootball.com/leagues/points-calculator.html) with "BestBall10s" Scoring System.						
