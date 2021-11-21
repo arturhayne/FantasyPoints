@@ -7,4 +7,6 @@ vendor/
 
 .env
 
-docker-compose.yml
+composer.lock
+
+result.json

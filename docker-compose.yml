@@ -1,0 +1,24 @@
+version: '3.7'
+
+networks:
+  default:
+    external:
+      name: my-network
+
+services:
+  web:
+    image: php:7.3-fpm
+    container_name: fantasy-points
+    environment:
+      - OPCACHE_ENABLED=0
+      - XDEBUG_ENABLED=1
+    volumes:
+      - type: bind
+        source: ./
+        target: /var/www/html
+      - type: bind
+        source: ./entrypoint.sh
+        target: /docker-entrypoint.d/10-entrypoint.sh
+    ports:
+      - 7011:80
+
