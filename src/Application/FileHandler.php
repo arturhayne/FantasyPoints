@@ -39,8 +39,6 @@ class FileHandler
 
         $events = Events::createEventsFromArray(json_decode($stringFile, true));
 
-        $events->sortPlayersByFantasyPoint();
-
         $json = json_encode($events->toArray());
 
         if(file_put_contents($this->targetFilePath, $json)){

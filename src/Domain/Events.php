@@ -48,14 +48,11 @@ class Events
         return new static($events);
     }
 
-    public function sortPlayersByFantasyPoint(): void
+    /**
+     * @return array
+     */
+    public function events(): array
     {
-        /** @var Game $game */
-        foreach ($this->events as $game) {
-            /** @var Team $team */
-            foreach ($game->teams() as $team) {
-                $team->sortPlayersByFantasyPoints();
-            }
-        }
+        return $this->events;
     }
 }

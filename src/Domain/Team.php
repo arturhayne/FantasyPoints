@@ -22,23 +22,23 @@ class Team
     private $teamAbr;
 
     /**
-     * @var array|null
+     * @var PlayersHeap
      */
     private $players;
 
     /**
      * Team constructor.
-     * @param int    $id
-     * @param string $name
-     * @param string $teamAbr
-     * @param array  $players
+     * @param int              $id
+     * @param string           $name
+     * @param string           $teamAbr
+     * @param PlayersHeap|null $players
      */
-    public function __construct(int $id, string $name, string $teamAbr, ?array $players = null)
+    public function __construct(int $id, string $name, string $teamAbr)
     {
         $this->id      = $id;
         $this->name    = $name;
         $this->teamAbr = $teamAbr;
-        $this->players = $players;
+        $this->players = new PlayersHeap();
     }
 
     /**
@@ -77,7 +77,7 @@ class Team
     /**
      * @return array|null
      */
-    public function players(): ?array
+    public function players(): PlayersHeap
     {
         return $this->players;
     }
@@ -87,15 +87,6 @@ class Team
      */
     public function addPlayer(Player $player): void
     {
-        $this->players[$player->id()] = $player;
-    }
-
-    public function sortPlayersByFantasyPoints(): void
-    {
-        uasort($this->players,
-            function (Player $playerA,Player $playerB) {
-                return $playerB->fantasyPoints() - $playerA->fantasyPoints();
-            }
-        );
+        $this->players->insert($player);
     }
 }
