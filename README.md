@@ -1,7 +1,8 @@
 # Fantasy Points
- - This is a script to parse a json file with NFL players projections from an event game. 
+ - This is a script Parsing a json file with NFL players projections from an event game. 
  - This script generates another json file scoring and sorting descending players in his team by his "FantasyPoints" in the match.
  - The json file generate obey the following structure:
+ ```
 Events
 	<Event Details>
 	Teams:
@@ -24,7 +25,7 @@ Events
 					<Player Projections>
 				...
 	...
-			
+ ```			
 Fantasy pointins is calculating accoring follwoing scoring Guidelines:
 
  ```
