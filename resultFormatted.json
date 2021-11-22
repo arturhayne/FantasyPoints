@@ -1,0 +1,474 @@
+{
+  "events": {
+    "4664": {
+      "id": 4664,
+      "dateTime": "2021-02-07T18:30:00-04:00",
+      "teams": {
+        "16": {
+          "id": 16,
+          "name": "Kansas City Chiefs",
+          "teamAbr": "KC",
+          "players": {
+            "6462": {
+              "id": 6462,
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "projections": {
+                "fantasyPoints": 24.5734,
+                "passingYards": 310.36,
+                "rushingYards": 15.59,
+                "rushingTouchdowns": 0.18,
+                "receptions": 0,
+                "receivingYards": 0,
+                "receivingTouchdowns": 0,
+                "rushingAttempts": 2.84,
+                "passingTouchdowns": 2.38,
+                "passingCompletions": 26.51,
+                "passingAttempts": 39.43
+              }
+            },
+            "5444": {
+              "id": 5444,
+              "name": "Travis Kelce",
+              "position": "TE",
+              "projections": {
+                "fantasyPoints": 19.903,
+                "passingYards": 1.05,
+                "rushingYards": 0,
+                "rushingTouchdowns": 0,
+                "receptions": 7.02,
+                "receivingYards": 86.61,
+                "receivingTouchdowns": 0.69,
+                "rushingAttempts": 0,
+                "passingTouchdowns": 0.01,
+                "passingCompletions": 0.09,
+                "passingAttempts": 0.13
+              }
+            },
+            "6032": {
+              "id": 6032,
+              "name": "Tyreek Hill",
+              "position": "WR",
+              "projections": {
+                "fantasyPoints": 19.532,
+                "passingYards": 0,
+                "rushingYards": 5.61,
+                "rushingTouchdowns": 0.05,
+                "receptions": 6.12,
+                "receivingYards": 84.11,
+                "receivingTouchdowns": 0.69,
+                "rushingAttempts": 1.01,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "9925": {
+              "id": 9925,
+              "name": "Clyde Edwards-Helaire",
+              "position": "RB",
+              "projections": {
+                "fantasyPoints": 10.499,
+                "passingYards": 0,
+                "rushingYards": 36.95,
+                "rushingTouchdowns": 0.33,
+                "receptions": 2.33,
+                "receivingYards": 17.74,
+                "receivingTouchdowns": 0.12,
+                "rushingAttempts": 9.24,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "7246": {
+              "id": 7246,
+              "name": "Mecole Hardman",
+              "position": "WR",
+              "projections": {
+                "fantasyPoints": 8.414,
+                "passingYards": 0,
+                "rushingYards": 1.81,
+                "rushingTouchdowns": 0.01,
+                "receptions": 2.89,
+                "receivingYards": 37.83,
+                "receivingTouchdowns": 0.25,
+                "rushingAttempts": 0.26,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "5141": {
+              "id": 5141,
+              "name": "Sammy Watkins",
+              "position": "WR",
+              "projections": {
+                "fantasyPoints": 8.382,
+                "passingYards": 0,
+                "rushingYards": 0,
+                "rushingTouchdowns": 0,
+                "receptions": 3.09,
+                "receivingYards": 36.12,
+                "receivingTouchdowns": 0.28,
+                "rushingAttempts": 0,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "7025": {
+              "id": 7025,
+              "name": "Darrel Williams",
+              "position": "RB",
+              "projections": {
+                "fantasyPoints": 8.264,
+                "passingYards": 0,
+                "rushingYards": 29.7,
+                "rushingTouchdowns": 0.26,
+                "receptions": 1.83,
+                "receivingYards": 13.64,
+                "receivingTouchdowns": 0.09,
+                "rushingAttempts": 7.71,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "6038": {
+              "id": 6038,
+              "name": "Demarcus Robinson",
+              "position": "WR",
+              "projections": {
+                "fantasyPoints": 5.404999999999999,
+                "passingYards": 0,
+                "rushingYards": 0,
+                "rushingTouchdowns": 0,
+                "receptions": 2.03,
+                "receivingYards": 23.55,
+                "receivingTouchdowns": 0.17,
+                "rushingAttempts": 0,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "4786": {
+              "id": 4786,
+              "name": "Le'Veon Bell",
+              "position": "RB",
+              "projections": {
+                "fantasyPoints": 2.63,
+                "passingYards": 0,
+                "rushingYards": 7.79,
+                "rushingTouchdowns": 0.08,
+                "receptions": 0.62,
+                "receivingYards": 4.51,
+                "receivingTouchdowns": 0.05,
+                "rushingAttempts": 2.19,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "7247": {
+              "id": 7247,
+              "name": "Byron Pringle",
+              "position": "WR",
+              "projections": {
+                "fantasyPoints": 1.089,
+                "passingYards": 0,
+                "rushingYards": 0,
+                "rushingTouchdowns": 0,
+                "receptions": 0.38,
+                "receivingYards": 4.69,
+                "receivingTouchdowns": 0.04,
+                "rushingAttempts": 0,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "4224": {
+              "id": 4224,
+              "name": "Anthony Sherman",
+              "position": "RB",
+              "projections": {
+                "fantasyPoints": 0.29000000000000004,
+                "passingYards": 0,
+                "rushingYards": 0.31,
+                "rushingTouchdowns": 0,
+                "receptions": 0.11,
+                "receivingYards": 0.89,
+                "receivingTouchdowns": 0.01,
+                "rushingAttempts": 0.1,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "7761": {
+              "id": 7761,
+              "name": "Nick Keizer",
+              "position": "TE",
+              "projections": {
+                "fantasyPoints": 0.238,
+                "passingYards": 0,
+                "rushingYards": 0,
+                "rushingTouchdowns": 0,
+                "receptions": 0.09,
+                "receivingYards": 0.88,
+                "receivingTouchdowns": 0.01,
+                "rushingAttempts": 0,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "7027": {
+              "id": 7027,
+              "name": "Deon Yelder",
+              "position": "TE",
+              "projections": {
+                "fantasyPoints": 0.223,
+                "passingYards": 0,
+                "rushingYards": 0,
+                "rushingTouchdowns": 0,
+                "receptions": 0.08,
+                "receivingYards": 0.83,
+                "receivingTouchdowns": 0.01,
+                "rushingAttempts": 0,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            }
+          }
+        },
+        "24": {
+          "id": 24,
+          "name": "Tampa Bay Buccaneers",
+          "teamAbr": "TB",
+          "players": {
+            "2276": {
+              "id": 2276,
+              "name": "Tom Brady",
+              "position": "QB",
+              "projections": {
+                "fantasyPoints": 22.131800000000002,
+                "passingYards": 321.22,
+                "rushingYards": 1.63,
+                "rushingTouchdowns": 0.06,
+                "receptions": 0,
+                "receivingYards": 0,
+                "receivingTouchdowns": 0,
+                "rushingAttempts": 0.66,
+                "passingTouchdowns": 2.19,
+                "passingCompletions": 25.62,
+                "passingAttempts": 39.53
+              }
+            },
+            "6504": {
+              "id": 6504,
+              "name": "Chris Godwin",
+              "position": "WR",
+              "projections": {
+                "fantasyPoints": 16.82,
+                "passingYards": 0,
+                "rushingYards": 0,
+                "rushingTouchdowns": 0,
+                "receptions": 5.83,
+                "receivingYards": 80.5,
+                "receivingTouchdowns": 0.49,
+                "rushingAttempts": 0,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "5348": {
+              "id": 5348,
+              "name": "Mike Evans",
+              "position": "WR",
+              "projections": {
+                "fantasyPoints": 15.554000000000002,
+                "passingYards": 0,
+                "rushingYards": 0,
+                "rushingTouchdowns": 0,
+                "receptions": 4.94,
+                "receivingYards": 74.94,
+                "receivingTouchdowns": 0.52,
+                "rushingAttempts": 0,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "6546": {
+              "id": 6546,
+              "name": "Leonard Fournette",
+              "position": "RB",
+              "projections": {
+                "fantasyPoints": 13.097999999999999,
+                "passingYards": 0,
+                "rushingYards": 49.64,
+                "rushingTouchdowns": 0.41,
+                "receptions": 2.73,
+                "receivingYards": 21.04,
+                "receivingTouchdowns": 0.14,
+                "rushingAttempts": 11.95,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "3761": {
+              "id": 3761,
+              "name": "Antonio Brown",
+              "position": "WR",
+              "projections": {
+                "fantasyPoints": 11.915,
+                "passingYards": 0,
+                "rushingYards": 3.47,
+                "rushingTouchdowns": 0.01,
+                "receptions": 4.31,
+                "receivingYards": 51.58,
+                "receivingTouchdowns": 0.34,
+                "rushingAttempts": 0.4,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "7011": {
+              "id": 7011,
+              "name": "Ronald Jones",
+              "position": "RB",
+              "projections": {
+                "fantasyPoints": 7.735,
+                "passingYards": 0,
+                "rushingYards": 37.27,
+                "rushingTouchdowns": 0.28,
+                "receptions": 1.17,
+                "receivingYards": 9.18,
+                "receivingTouchdowns": 0.04,
+                "rushingAttempts": 8.12,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "3912": {
+              "id": 3912,
+              "name": "Rob Gronkowski",
+              "position": "TE",
+              "projections": {
+                "fantasyPoints": 7.6770000000000005,
+                "passingYards": 0,
+                "rushingYards": 0,
+                "rushingTouchdowns": 0,
+                "receptions": 2.45,
+                "receivingYards": 34.27,
+                "receivingTouchdowns": 0.3,
+                "rushingAttempts": 0,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "5345": {
+              "id": 5345,
+              "name": "Cameron Brate",
+              "position": "TE",
+              "projections": {
+                "fantasyPoints": 6.470000000000001,
+                "passingYards": 0,
+                "rushingYards": 0,
+                "rushingTouchdowns": 0,
+                "receptions": 2.5,
+                "receivingYards": 26.5,
+                "receivingTouchdowns": 0.22,
+                "rushingAttempts": 0,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "7970": {
+              "id": 7970,
+              "name": "Scotty Miller",
+              "position": "WR",
+              "projections": {
+                "fantasyPoints": 3.603,
+                "passingYards": 0,
+                "rushingYards": 1.64,
+                "rushingTouchdowns": 0.01,
+                "receptions": 1.16,
+                "receivingYards": 16.19,
+                "receivingTouchdowns": 0.1,
+                "rushingAttempts": 0.21,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "11318": {
+              "id": 11318,
+              "name": "Tyler Johnson",
+              "position": "WR",
+              "projections": {
+                "fantasyPoints": 1.409,
+                "passingYards": 0,
+                "rushingYards": 0,
+                "rushingTouchdowns": 0,
+                "receptions": 0.48,
+                "receivingYards": 6.29,
+                "receivingTouchdowns": 0.05,
+                "rushingAttempts": 0,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "7010": {
+              "id": 7010,
+              "name": "Tanner Hudson",
+              "position": "TE",
+              "projections": {
+                "fantasyPoints": 0.134,
+                "passingYards": 0,
+                "rushingYards": 0,
+                "rushingTouchdowns": 0,
+                "receptions": 0.06,
+                "receivingYards": 0.74,
+                "receivingTouchdowns": 0,
+                "rushingAttempts": 0,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            },
+            "3525": {
+              "id": 3525,
+              "name": "LeSean McCoy",
+              "position": "RB",
+              "projections": {
+                "fantasyPoints": 0.043000000000000003,
+                "passingYards": 0,
+                "rushingYards": 0.43,
+                "rushingTouchdowns": 0,
+                "receptions": 0,
+                "receivingYards": 0,
+                "receivingTouchdowns": 0,
+                "rushingAttempts": 0.11,
+                "passingTouchdowns": 0,
+                "passingCompletions": 0,
+                "passingAttempts": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
