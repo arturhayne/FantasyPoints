@@ -25,7 +25,40 @@ Events
 					<Player Projections>
 				...
 	...
- ```			
+ ```
+Sample:
+```
+{
+  "events": {
+    "4664": {
+      "id": 4664,
+      "dateTime": "2021-02-07T18:30:00-04:00",
+      "teams": {
+        "16": {
+          "id": 16,
+          "name": "Kansas City Chiefs",
+          "teamAbr": "KC",
+          "players": {
+            "6462": {
+              "id": 6462,
+              "name": "Patrick Mahomes",
+              "position": "QB",
+              "projections": {
+                "fantasyPoints": 24.5734,
+                "passingYards": 310.36,
+                "rushingYards": 15.59,
+                "rushingTouchdowns": 0.18,
+                "receptions": 0,
+                "receivingYards": 0,
+                "receivingTouchdowns": 0,
+                "rushingAttempts": 2.84,
+                "passingTouchdowns": 2.38,
+                "passingCompletions": 26.51,
+                "passingAttempts": 39.43
+              }
+            },
+```
+			
 Fantasy pointins is calculating accoring follwoing scoring Guidelines:
 
  ```
@@ -52,6 +85,8 @@ rec_rec : Receptions
 rec_tds : ReceivingTouchdowns
 rec_yds : ReceivingYards
 ```
+ ## Requirements
+  - Docker
  
  ## How to Run 
  1. docker-compose up -d
@@ -70,6 +105,7 @@ rec_yds : ReceivingYards
  - docker run --rm -it --volume %cd%:/app php bash -c "cd app/; php vendor/bin/phpunit" 
  
  ```
+root@77b632700cc4:/var/www/html# vendor/bin/phpunit --testdox
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
 
 Events (Tests\Events)
@@ -81,12 +117,17 @@ Player (Tests\Player)
 Team (Tests\Team)
  ✔ It should sort team players by fantasy points descending
 
-Deprecated: uasort(): Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero in /app/src/Domain/Team.php on line 98
-
-Time: 00:00.054, Memory: 6.00 MB
+Time: 00:00.095, Memory: 6.00 MB
 
 OK (3 tests, 6 assertions)
 ```
+
+## About the code
+ - Data Structure: Heap
+ 	- Reason: Data stay sorted on insertion moment
+ - Meaningful names: variables, methods have meaningful names preventing any unnecessary comment.
+ - Formatting: Classes are following PSR code style.
+ - Respect of law of demeter: a module should not know the innards of the objects its manipulates. 	
 
 ## Reference
 You can check the fantasy points using [Points Calculator](https://simulatedfootball.com/leagues/points-calculator.html) with "BestBall10s" Scoring System.						
