@@ -26,7 +26,7 @@ Events
 				...
 	...
  ```
-Sample:
+[Sample](https://github.com/arturhayne/FantasyPoints/blob/master/resultFormatted.json):
 ```
 {
   "events": {
